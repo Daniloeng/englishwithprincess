@@ -1,0 +1,19 @@
+{
+  "name": "englishwithprincess",
+  "version": "1.0.0",
+  "description": "english with princess",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Daniloeng/englishwithprincess.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Daniloeng/englishwithprincess/issues"
+  },
+  "homepage": "https://github.com/Daniloeng/englishwithprincess#readme"
+}

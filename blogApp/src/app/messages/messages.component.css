@@ -1,0 +1,13 @@
+mat-card {
+    margin: 10px;
+    padding: 10px;
+  }
+  
+  .odd-card {
+    background-color: lightgray;
+  }
+  
+  .even-card {
+    background-color: lightblue;
+  }
+  

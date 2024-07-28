@@ -1,0 +1,18 @@
+<h1>Edition</h1>
+<form (ngSubmit)="onSubmit()" enctype="multipart/form-data">
+  <div class="form-container">
+    <mat-form-field>
+      <mat-label>Title</mat-label>
+      <input matInput [(ngModel)]="newPost.title" name="title" required>
+    </mat-form-field>
+    <mat-form-field>
+      <mat-label>Description</mat-label>
+      <textarea matInput rows="5" [(ngModel)]="newPost.description" name="description" required></textarea>
+    </mat-form-field>
+    <mat-form-field>
+      <mat-label>File</mat-label>
+      <input matInput type="file" (change)="onFileSelected($event)" required>
+    </mat-form-field>
+    <button mat-raised-button color="primary" type="submit">Submit</button>
+  </div>
+</form>
